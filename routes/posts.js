@@ -44,7 +44,6 @@ router.post('/add', verify, async (request, response)=>{
         const savedPost = await post.save()
         response.send({post: post._id})
     } catch(e) {
-        //response.status(400).send(e.error.details[0].message);
         response.send("Invild Data")
     }
 })

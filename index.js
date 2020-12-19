@@ -33,10 +33,3 @@ app.use('/api/posts', postRoute)
 app.use('/api/categories', categoryRoute)
 
 app.listen(3000,() => console.log('Server has started...'));
-
-
-//REACT SCROLL MENU WITH CATEGORIES FOR TASKS AND THEN OTHER COOL STUFF.
-
-//IMAGE SCREEN IN FOLDER WITH INTERFACE TO IMPORT TO REACT
-// OF COURSE WITH REACT YOU NEED TO HIDE TASKS WITH COMPLETED FLAG AND ETC....
-// IF NOT, THEN JUST SORT IT IN NODE.js, BUT better will be with react (I hope......)

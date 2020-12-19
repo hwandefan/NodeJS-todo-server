@@ -16,7 +16,6 @@ router.get('/', verify, async (request, response)=>{
 })
 
 router.post('/add', verify, async (request, response)=>{
-    //console.log(request.body)
     const validation = categoryValidation(request.body);
     if (!validation) response.send(validation.error.details[0].message)
     const category = new Category({
