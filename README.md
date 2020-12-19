@@ -1,6 +1,8 @@
 # NodeJS-todo-server
 Server Api on NodeJS for TodoList on ReactJS <br />
+<br />
 Database: mongoDB - active online (Tables: posts, users, categories) <br />
+<br />
 Commands for ServerApi:<br />
 /api/user/register - (@POST) - Register user<br />
 /api/user/login - (@POST) - Login user, get token<br />
